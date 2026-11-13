@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - ../k8s
+  - storageclass.yaml
+  - ingressclass.yaml
+patches:
+  - path: ingress-patch.yaml
+images:
+  - name: taskflow-api
+    newName: 887991001101.dkr.ecr.ap-south-1.amazonaws.com/taskflow-api
+    newTag: "1.0.0"
+  - name: taskflow-frontend
+    newName: 887991001101.dkr.ecr.ap-south-1.amazonaws.com/taskflow-frontend
+    newTag: "1.0.0"
