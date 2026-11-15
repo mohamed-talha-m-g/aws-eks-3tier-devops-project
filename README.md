@@ -283,4 +283,4 @@ EKS is not in the free tier. This setup costs roughly **$0.30 per hour** in `ap-
 ## Author
 
 **Mohamed Talha M G**: aspiring DevOps engineer, AWS and Terraform
-[LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE) · [GitHub](https://github.com/YOUR-USERNAME)
+[LinkedIn](https://www.linkedin.com/in/mohamed-talha-m-g) · [GitHub](https://github.com/mohamed-talha-m-g)
